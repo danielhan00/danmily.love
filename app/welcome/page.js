@@ -1,6 +1,6 @@
 "use client";
 import styles from "./page.module.css";
-import Navbar from "@/components/NavBar";
+import Navbar from "/components/NavBar";
 import ImageSlider from "/components/ImageSlider.js";
 import ImageSliderContainer from "@/components/ImageSliderContainer";
 
