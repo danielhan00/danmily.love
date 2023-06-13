@@ -1,39 +1,50 @@
-// components/NavBar.js
+import React, { useState } from "react";
+import styles from "./Navbar.module.css";
 
-import Link from "next/link";
-import styles from "./NavBar.module.css";
+const Navbar = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-const NavBar = () => {
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
   return (
-    <nav className={styles.container}>
-      <ul className={styles.navLinks}>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/welcome">For Emily</Link>
-        </li>
-        <li>
-          <Link href="/winter2021">Winter 2021</Link>
-        </li>
-        <li>
-          <Link href="/spring2022">Spring 2022</Link>
-        </li>
-        <li>
-          <Link href="/summer2022">Summer 2022</Link>
-        </li>
-        <li>
-          <Link href="/fall2022">Fall 2022</Link>
-        </li>
-        <li>
-          <Link href="/winter2023">Winter 2023</Link>
-        </li>
-        <li>
-          <Link href="/oneyear">One Year!</Link>
-        </li>
-      </ul>
-    </nav>
+    <div className={styles.container}>
+      <div className={styles.navbar}>
+        <button className={styles.navbarButton} onClick={toggleDropdown}>
+          Menu
+        </button>
+        {isDropdownOpen && (
+          <div className={styles.dropdown}>
+            <a href="#" className={styles.dropdownItem}>
+              Link 1
+            </a>
+            <a href="#" className={styles.dropdownItem}>
+              Link 2
+            </a>
+            <a href="#" className={styles.dropdownItem}>
+              Link 3
+            </a>
+            <a href="#" className={styles.dropdownItem}>
+              Link 4
+            </a>
+            <a href="#" className={styles.dropdownItem}>
+              Link 5
+            </a>
+            <a href="#" className={styles.dropdownItem}>
+              Link 6
+            </a>
+            <a href="#" className={styles.dropdownItem}>
+              Link 7
+            </a>
+            <a href="#" className={styles.dropdownItem}>
+              Link 8
+            </a>
+          </div>
+        )}
+      </div>
+    </div>
   );
 };
 
-export default NavBar;
+export default Navbar;
