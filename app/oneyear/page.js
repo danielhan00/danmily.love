@@ -1,6 +1,6 @@
 "use client";
 import styles from "./page.module.css";
-import TopBar from "/components/TopBar";
+import Navbar from "/components/NavBar";
 import ImageSlider from "/components/ImageSlider.js";
 
 export default function Home() {
@@ -10,10 +10,28 @@ export default function Home() {
   const danmilyCaption =
     "danmily is an awesome part of our lives, make sure to not strand it on the veranda!";
   return (
-    <main className={styles.disable}>
-      <TopBar />
+    <main>
+      <Navbar />
       <div className={styles.main}>
-        <div>welcome page!</div>
+        <div>
+          Dear Emily, we've been dating one whole year. Let's make so mamy more
+          wonderful memories in the one!
+        </div>
+        <ImageSlider
+          imageSrc={danmilySrc}
+          caption={danmilyCaption}
+          mapLocation={danmilyLocation}
+        />
+        <ImageSlider
+          imageSrc={danmilySrc}
+          caption={danmilyCaption}
+          mapLocation={danmilyLocation}
+        />
+        <ImageSlider
+          imageSrc={danmilySrc}
+          caption={danmilyCaption}
+          mapLocation={danmilyLocation}
+        />
       </div>
     </main>
   );

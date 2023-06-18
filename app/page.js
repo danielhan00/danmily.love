@@ -15,7 +15,7 @@ const HomePage = () => {
       <h1 className={styles.title}>TOP SECRET INFORMATION</h1>
       <div className={styles.passwordContainer}>
         <PasswordComponent
-          correctPassword="password"
+          correctPassword="ilubusomuch"
           onPasswordCorrect={handlePasswordCorrect}
           router={router}
         />
