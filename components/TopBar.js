@@ -9,7 +9,7 @@ const TopBar = () => {
         <a href="/welcome">
           <img
             src="/images/homebutton.png"
-            alt="Logo"
+            alt="'"
             style={{ width: "40px", height: "40px" }}
           />
         </a>
