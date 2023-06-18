@@ -14,8 +14,8 @@ export default function Home() {
       <Navbar />
       <div className={styles.main}>
         <div>
-          Dear Emily, we've been dating one whole year. Let's make so mamy more
-          wonderful memories in the one!
+          Dear Emily, we&apos;ve been dating one whole year. Let&apos;s make so
+          mamy more wonderful memories in the one!
         </div>
         <ImageSlider
           imageSrc={danmilySrc}
