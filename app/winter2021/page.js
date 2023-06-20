@@ -26,13 +26,13 @@ export default function Home() {
         <div className={styles.text}>
           December 2021, this is when we met!
           <br />
-          What was supposed to be just a casual meeting turned into an awesome,
-          loving relationship.
+          What was supposed to be just a casual friendship turned into an
+          awesome, loving relationship.
           <br />
           <br />
           Thinking now of us hanging out then not knowing that we would be
-          dating for one whole year is crazy, and I'm so glad that we were able
-          to meet when we are from such different places.
+          dating for one whole year is crazy, and I&apos;m so glad that we were
+          able to meet when we are from such different places.
           <br />I love you, baby
         </div>
         <div className={styles.container}>

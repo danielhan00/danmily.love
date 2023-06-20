@@ -19,9 +19,9 @@ export default function Home() {
           This website is dedicated to you and to our One Year Anniversary.
           <br />
           <br />
-          Please navigate to this website's subpages. On each subpage, you will
-          find something to remember our wonderful one year together. Below is
-          an example of how I set up each picture, try it out! Enjoy!!
+          Please navigate to this website&apos;s subpages. On each subpage, you
+          will find something to remember our wonderful one year together. Below
+          is an example of how I set up each picture, try it out! Enjoy!!
           <br />
           p.s. I love you
         </div>
