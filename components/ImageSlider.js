@@ -14,14 +14,11 @@ const ImageSlider = ({ imageSrc, caption, mapLocation }) => {
   };
 
   const handlePrevious = () => {
-    if (isBlurred) {
+    if (showMap) {
+      setShowMap(false);
+      setIsBlurred(true);
+    } else if (isBlurred) {
       setIsBlurred(false);
-      setShowMap(false);
-    } else if (showMap) {
-      setShowMap(false);
-    } else {
-      setIsBlurred(false);
-      setShowMap(false);
     }
   };
 

@@ -1,9 +1,18 @@
+.topHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: lightgreen;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: lightgreen;
+  padding: 10px;
 }
 
 .left {
@@ -13,6 +22,7 @@
 .middle {
   flex: 1;
   text-align: center;
+  color: #000000;
 }
 
 .right {
@@ -20,7 +30,7 @@
   text-align: right;
 }
 
-.homebutton {
-  width: "32px";
-  height: "32px";
+.navbarButton {
+  background-color: transparent;
+  border: none;
 }

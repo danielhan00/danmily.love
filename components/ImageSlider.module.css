@@ -20,13 +20,15 @@
 
 .caption {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  top: 50%;
+  left: 50%;
   padding: 10px;
+  transform: translate(-50%, -50%);
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   font-size: 18px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 .map {
@@ -44,6 +46,18 @@
   background-color: #ffffff;
   color: #000000;
   border: none;
+  background-image: linear-gradient(
+    to right,
+    #77a1d3 0%,
+    #79cbca 51%,
+    #77a1d3 100%
+  );
+  margin: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
   border-radius: 4px;
-  cursor: pointer;
 }

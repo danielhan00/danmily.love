@@ -25,11 +25,29 @@ export default function Home() {
           <br />
           p.s. I love you
         </div>
-        <ImageSlider
-          imageSrc={danmilySrc}
-          caption={danmilyCaption}
-          mapLocation={danmilyLocation}
-        />
+        <div className={styles.container}>
+          <div className={styles.item}>
+            <ImageSlider
+              imageSrc={danmilySrc}
+              caption={danmilyCaption}
+              mapLocation={danmilyLocation}
+            />
+          </div>
+          <div className={styles.item}>
+            <ImageSlider
+              imageSrc={danmilySrc}
+              caption={danmilyCaption}
+              mapLocation={danmilyLocation}
+            />
+          </div>
+          <div className={styles.item}>
+            <ImageSlider
+              imageSrc={danmilySrc}
+              caption={danmilyCaption}
+              mapLocation={danmilyLocation}
+            />
+          </div>
+        </div>
       </div>
     </main>
   );
