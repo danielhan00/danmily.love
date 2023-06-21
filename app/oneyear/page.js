@@ -15,8 +15,8 @@ export default function Home() {
         <div className={styles.text}>
           One year, HOLY CRAP!
           <br />
-          This year has been truly amazing. Throughout each page, I've chosen a
-          few photos that I really think encapsulate our experience throughout
+          This year has been truly amazing. Throughout each page, I have chosen
+          a few photos that I really think encapsulate our experience throughout
           the year. Enjoy!
           <br />
           p.s. You are actually so beautiful. Looking through pictures to choose
