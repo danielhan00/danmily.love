@@ -33,7 +33,8 @@ export default function Home() {
           Thinking now of us hanging out then not knowing that we would be
           dating for one whole year is crazy, and I&apos;m so glad that we were
           able to meet when we are from such different places.
-          <br />I love you, baby
+          <br />
+          Remember the churros and beer we got?
         </div>
         <div className={styles.container}>
           <div className={styles.item}>
