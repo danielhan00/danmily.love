@@ -29,8 +29,8 @@ const ImageSlider = ({ imageSrc, caption, mapLocation }) => {
           <iframe
             className={styles.map}
             src={mapLocation}
-            width="500"
-            height="500"
+            width="400"
+            height="400"
             title="Google Maps Location"
           ></iframe>
         ) : (
@@ -39,8 +39,8 @@ const ImageSlider = ({ imageSrc, caption, mapLocation }) => {
               className={`${styles.image} ${isBlurred ? styles.blurred : ""}`}
               src={imageSrc}
               alt="Image"
-              width="500"
-              height="500"
+              width="400"
+              height="400"
             />
             {isBlurred && <div className={styles.caption}>{caption}</div>}
           </>
