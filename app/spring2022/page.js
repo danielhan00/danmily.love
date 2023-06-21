@@ -8,7 +8,7 @@ export default function Home() {
   const location1 =
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210880.81793418247!2d-122.12125320084824!3d37.26219523871554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e33d42fdfca95%3A0xe32126b1b6af1f34!2sBowlero%20San%20Jose!5e0!3m2!1sen!2sus!4v1687325922905!5m2!1sen!2sus";
   const caption1 = "You are so freaking cute when you play basketball hehe";
-  const src2 = "/images/album.jpg";
+  const src2 = "/images/album.JPG";
   const location2 =
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45059.85826633401!2d-122.48778639832202!3d37.82158187031386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586deffffffc3%3A0xcded139783705509!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1687325889026!5m2!1sen!2sus";
   const caption2 = "Please write an album and make this the cover LOL";
