@@ -2,6 +2,7 @@
 import styles from "./page.module.css";
 import TopBar from "/components/TopBar";
 import ImageSlider from "/components/ImageSlider.js";
+import CustomCursor from "/components/CustomCursor";
 
 export default function Home() {
   const danmilySrc = "/images/danmily.jpg";

@@ -1,0 +1,19 @@
+.container {
+  display: inline-block;
+  border: 2px solid #f0f0f0;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 18px;
+  color: #000;
+  white-space: nowrap; /* Prevent line wrapping */
+}
+
+.countdown {
+  color: #000; /* Add this line to set the countdown text color to black */
+}
+
+.expired {
+  color: #000; /* Add this line to set the expired text color to black */
+}
