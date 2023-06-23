@@ -18,10 +18,10 @@ export default function Home() {
           <br />
           <CountdownTimer />
           <br />
-          The next chapter of our lives is unfolding. Let's continue on the
-          amazing path we've started on and build a great future together. You
-          mean so much to me, and I cannot wait until I can say these words in
-          person.
+          The next chapter of our lives is unfolding. Let&apos;s continue on the
+          amazing path we&apos;ve started on and build a great future together.
+          You mean so much to me, and I cannot wait until I can say these words
+          in person.
         </div>
         <div className={styles.container}>
           <div className={styles.item}>
